@@ -1,0 +1,11 @@
+apiVersion: skaffold/v2beta4
+kind: Config
+metadata:
+  name: outer-api-server-test
+build:
+  tagPolicy:
+    gitCommit: {}
+deploy:
+  kustomize:
+    paths:
+      - .
