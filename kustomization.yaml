@@ -1,6 +1,5 @@
 resources:
-  # a repo with a root level kustomization.yaml
-  - github.com/mur6/internal-api-server-test/k8s?ref=v0.1.1
+  - github.com/mur6/internal-api-server-test/k8s?ref=v0.1.2
 imageTags:
   - name: docker.pkg.github.com/mur6/internal-api-server-test/simpleapi
-    newTag: v0.1.1
+    newTag: v0.1.2
